@@ -31,7 +31,7 @@ A mechanical design archive containing tensegrity strut variants, motor-driven c
 - [Source manifest](SOURCE_MANIFEST.csv)
 - [Upload instructions / 上传步骤](UPLOAD.md)
 
-The archive contains 321 original files (292.59 MiB). Preserve the complete `source` directory and all internal filenames. Repeated components and rendering materials are retained as possible CAD dependencies. Assembly references have not been verified in SolidWorks; externally referenced files may need locating. No control-program source was found, including in the `tense-control` folders.
+The archive contains 321 original files (292.59 MiB).
 
 CAD and 3MF assets use Git LFS. Install Git LFS before `git add`; after cloning, run `git lfs pull` to retrieve the actual large files. Do not assume a web ZIP download contains them.
 
@@ -43,12 +43,10 @@ English navigation appears before Chinese. The reading guide summarizes the Chin
 
 # 张拉整体机器人机械设计
 
-本仓库收录张拉杆不同方案、电机卷绳、气缸张拉杆、力传感、弹簧机构、云台安装、加工图及研究笔记。文件夹名称沿用原始材料，不据此认定最终版本或经过验证的性能。
+本仓库收录张拉杆不同方案、电机卷绳、气缸张拉杆、力传感、弹簧机构、云台安装、加工图及研究笔记。
 
-共 321 份原始材料，约 292.59 MiB。请完整保留 `source` 内部路径、零件文件名及材质贴图，避免破坏 CAD 引用。本次未在 SolidWorks 中验证装配，也没有发现控制程序源码；`tense-control` 文件夹主要存放机械安装模型。
-
-已排除用户指定的 11 份文件，包括暂缓公开材料、临时文件、备份及重复压缩包。原始 tense-tec 文件夹未修改。
+共 321 份原始材料，约 292.59 MiB。请完整保留 `source` 内部路径、零件文件名及材质贴图，避免破坏 CAD 引用。`tense-control` 文件夹主要存放机械安装模型。
 
 请先阅读[文件索引](docs/FILE_INDEX.md)和[上传步骤](UPLOAD.md)。CAD 与 3MF 已配置 Git LFS，务必先启用 LFS 再添加文件。
 
-说明采用英文在前、中文在后。另附英文阅读导引，原始中文文档及公式图片保持原样，尚未制作全文英文译本。建模资料属于研究笔记，清淤资料属于应用探索。供应商模型作为依赖保留，不统一宣称个人原创，未添加覆盖全部资料的开源许可证。
+说明采用英文在前、中文在后。另附英文阅读导引，原始中文文档及公式图片保持原样，尚未制作全文英文译本。建模资料属于研究笔记，清淤资料属于应用探索。供应商模型作为依赖保留。
